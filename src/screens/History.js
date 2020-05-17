@@ -28,7 +28,7 @@ export default class History extends Component {
   handleDelete(id) {
     Alert.alert(
       "Delete",
-      "Are you sure you want to delete this note?",
+      "Are you sure you want to delete this file?",
       [
         {
           text: "Cancel",
