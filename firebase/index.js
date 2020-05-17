@@ -21,18 +21,17 @@ class Fire {
   };
 
   addItem(input, result) {
-    this.db
-      .push({
-        input,
-        result,
-        timestamp: firebase.database.ServerValue.TIMESTAMP,
-      })
-      .then(() => {
-        console.log("Added");
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    this.db.push({
+      input,
+      result,
+      timestamp: firebase.database.ServerValue.TIMESTAMP,
+    });
+    // .then(() => {
+    //   console.log("Added");
+    // })
+    // .catch((err) => {
+    //   console.log(err);
+    // });
   }
 
   getData(setData) {
