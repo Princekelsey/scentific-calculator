@@ -34,9 +34,9 @@ Runs the app on ios mode.
 
 Runs the app on web mode.
 
-### `npm test`
+### `npm run test`
 
-Launches the test runner in the interactive watch mode.
+Launches the test runner mode.
 
 ## Project Plan
 
